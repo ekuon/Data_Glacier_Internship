@@ -1,0 +1,17 @@
+file_type: csv
+dataset_name: testfile
+file_name: eCommerce
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - Event_time
+    - Event_type 
+    - ProductID
+    - CategoryID
+    - Category_code 
+    - Brand
+    - Price 
+    - UserID 
+    - User_session
